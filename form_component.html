@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div id="container">
+  <header class="header black-bg">
+    <li>
+      <a class="logo"href="dashboard.html">
+        <i class="fa fa-bars"></i>
+        <b class="ml"> AVENTURE DASHBOARD : TIME</b>
+        <ul class="top-menu">
+          <li class="pull-right">
+            <a class="logout"href="#">logout</a>
+          </li>
+        </ul>
+      </a>
+    </li>
+  </header>
+  <aside>
+    <div id="sidebar" class="black-bg nav-collapse">
+      <ul class="sub sidebar-menu ml">
+       <p class="text-center">
+         <a href="login.html"><img src="img/profile_avatar.png" class="img-circle" width="60"> </a>
+       </p>
+       <h5 class="ml text-center"> Bonibelle Bublegum</h5>
+        <li><a class="sub-menu"href="dashboard.html"> <i class="fa fa-tachometer"></i>Dashboard</a></li>
+        <li><a class="sub-menu"href="buttons.html"><i class="fa fa-desktop"></i>
+Buttons</a></li>
+        <li><a class="sub-menu"href="progress.html"><i class="fa fa-desktop"></i>
+Progress Bars</a></li>
+        <li><a class="sub-menu"href="form_component.html"><i class="fa fa-cog"></i> Forms</a></li>
+        <li><a class="sub-menu"href="basic_tables.html"><i class="fa fa-th"></i>Data Tablets</a></li>
+        <li><a class="sub-menu"href="gallery.html"><i class="fa fa-tasks"></i>Gallery</a></li>
+        <li><a class="sub-menu"href="login.html"><i class="fa fa-book"></i>Login Page</a></li>
+      </ul>
+    </div>
+  </aside>
+   <section id="main-content">
+      <div class="row wrapper">
+        <h4 class="mt"><i class="fa fa-chevron-right"></i>   Form Elements</h4>
+        <div class="form-panel">
+        <h4><i class="fa fa-chevron-right"></i> Form Elements</h4>
+        <form class="form-horizontal">
+        <div class="page-header">
+          <div class="form-group">
+            <label  class="col-sm-2 control-label">Defauld</label>
+            <div class="col-sm-10">
+              <input class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="page-header">
+          <div class="form-group">
+            <label  class="col-sm-2 control-label">Help Text</label>
+            <div class="col-sm-10">
+              <input class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="page-header">  
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Rounder</label>
+            <div class="col-sm-10 ">
+              <input class="form-control round-form" >
+            </div>
+          </div>
+        </div>
+        <div class="page-header">  
+          <div class="form-group">
+            <label for="focusedInput" class="col-sm-2 control-label">Input focus</label>
+            <div class="col-sm-10 ">
+              <input class="form-control" id="focusedInput" placeholder="this is focosud">
+            </div>
+          </div>
+        </div>
+        <div class="page-header">  
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Disable</label>
+            <div class="col-sm-10">
+              <input class="form-control" type="text" placeholder="Disable input here…" readonly>
+            </div>
+          </div>
+        </div>
+        <div class="page-header">  
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Placeholder</label>
+            <div class="col-sm-10">
+              <input class="form-control" placeholder="Placeholder">
+            </div>
+          </div>
+        </div>
+        <div class="page-header">
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Pasword</label>
+            <div class="col-sm-10">
+              <input class="form-control" >
+            </div>
+          </div>
+        </div>
+        <div class="page-header">  
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Static control</label>
+            <div class="col-sm-10">
+              <p class="form-control-static">email@example.com</p>
+            </div>
+          </div>
+        </div>  
+        </form>  
+        </div> 
+      </div>
+        <div class="form-panel">
+          <h4> > Inline Form</h4>
+          <form class="form-inline">
+            <div class="form-group">
+              <input class="form-control"placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+              <input class="form-control"placeholder="Pasword">
+            </div>
+            <div class="form-group">
+            <button type="submit" class="btn btn-default active">Sign In</button>
+            </div>
+          </form>  
+        </div>
+        <div class="form-panel"> 
+        <h4> > Input Messages</h4>
+        <form class="form-horizontal">
+          <div class="form-group has-success">
+            <label class="control-label col-sm-3">Input with success</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control">
+            </div>  
+          </div>
+          <div class="form-group has-warning">
+            <label class="control-label col-sm-3">Input with warning</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control">
+            </div>  
+          </div>
+          <div class="form-group has-error">
+            <label class="control-label col-sm-3">Input with error</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control">
+            </div>  
+          </div>
+        </form>  
+        </div>
+        <div class="form-panel"> 
+          <h4> > Checkboxes, Radio & Selects</h4>
+          <div class="page-header">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">
+                Option one is this and that -- be sure to include why it´s great
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio">
+                Option one is this and that -- be sure to include why it´s great
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio">
+                Option one is this and that -- be sure to include why it´s great
+            </label>
+          </div>
+          </div>
+          <form class="form-inline">
+            <div class="page-header">
+            <div class="checkbox ml">
+              <label>
+                <input type="checkbox">
+                1
+              </label>
+            </div>
+            <div class="checkbox ml">
+              <label>
+                <input type="checkbox">
+                2
+              </label>
+            </div>
+            <div class="checkbox ml">
+              <label>
+                <input type="checkbox">
+                3
+              </label>
+            </div>
+            </div>
+           </form> 
+          <form class="form-horizontal">
+            <select class="form-control">
+              <option>1</option>
+            </select> 
+            <select multiple class="mt form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select> 
+          </form>
+        </div>
+      </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
